@@ -206,28 +206,10 @@ p{
 }
 
 .foto2:hover{
-    height: 100%; 
-    width: 100%;
-    padding: 50px
+    height: 30rem; 
+    width: 50rem;
     
 }
-
-
-
-
-@keyframes titilar {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-
 
 
 .foto3{
@@ -241,6 +223,18 @@ p{
     width: 50rem;
     
 }
+
+@keyframes titilar {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 
