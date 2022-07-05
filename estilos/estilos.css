@@ -182,6 +182,44 @@ p{
 
 }
 
+/*Animaciones*/
+
+.foto1{
+    transition: height 5s, width 1s;
+}
+
+.foto1:hover{
+    height: 30rem; 
+    width: 50rem;
+    
+}
+
+
+
+.foto2{
+    transition: height 5s, width 1s;
+}
+
+.foto2:hover{
+    height: 100%; 
+    width: 100%;
+    padding: 50px
+    
+}
+
+
+
+.foto3{
+    transition: height 5s, width 1s;
+}
+
+.foto3:hover{
+    height: 30rem; 
+    width: 50rem;
+    
+}
+
+
 
 
 /*footer*/
