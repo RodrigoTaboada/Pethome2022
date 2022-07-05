@@ -34,7 +34,6 @@ body {  display: grid;
     margin: auto;
     gap: 20px;
     margin-bottom: 17px;
-    background-image:linear-gradient(45deg, #355070, #E56B6F);
     
   }
 
@@ -124,6 +123,8 @@ body {  display: grid;
     font-size: 5rem;
     font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
     margin: 3rem;
+    animation-duration: 3s;
+    animation-name: titilar;
 }
 
 .textoCuerpo{
@@ -186,6 +187,8 @@ p{
 
 .foto1{
     transition: height 5s, width 1s;
+    background-image:linear-gradient(45deg, #355070, #E56B6F);
+
 }
 
 .foto1:hover{
@@ -198,6 +201,8 @@ p{
 
 .foto2{
     transition: height 5s, width 1s;
+    background-image:linear-gradient(45deg, #355070, #E56B6F);
+
 }
 
 .foto2:hover{
@@ -209,8 +214,26 @@ p{
 
 
 
+
+@keyframes titilar {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+
 .foto3{
-    transition: height 5s, width 1s;
+    transition: height 10s, width 10s;
+    background-image:linear-gradient(45deg, #355070, #E56B6F)
+
 }
 
 .foto3:hover{
