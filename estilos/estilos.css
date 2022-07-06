@@ -186,48 +186,25 @@ p{
 /*Animaciones*/
 
 .foto1{
-    transition: height 5s, width 1s;
+    transition: height 1rem, width 1s;
     background-image:linear-gradient(45deg, #355070, #E56B6F);
 
 }
 
-.foto1:hover{
-    height: 30rem; 
-    width: 50rem;
+.foto1 img:hover{
+    height: 40rem; 
+    width: 60rem;
     
 }
 
 
 
-.foto2{
-    transition: height 5s, width 1s;
-    background-image:linear-gradient(45deg, #355070, #E56B6F);
 
-}
-
-.foto2:hover{
-    height: 30rem; 
-    width: 50rem;
-    
-}
-
-
-.foto3{
-    transition: height 10s, width 10s;
-    background-image:linear-gradient(45deg, #355070, #E56B6F)
-
-}
-
-.foto3:hover{
-    height: 30rem; 
-    width: 50rem;
-    
-}
 
 @keyframes titilar {
     from {
       margin-left: 100%;
-      width: 300%
+      width: 100%
     }
   
     to {
