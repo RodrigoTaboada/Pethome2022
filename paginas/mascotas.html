@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <!-- NAV -->
+   <!--  
     <header class="nav">
         <ul class="menu">
             <li class="menu__opcion"><a href="../index.html">Inicio</a></li>
@@ -23,6 +25,26 @@
           </ul>
       </nav>
     </header>
+    -->
+
+
+<!-- Nav -->
+ <nav class="navbar navbar-expand-lg nav">
+    <div class="container-fluid">
+          <h1 class="h1">PETHOME<h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-text">
+                <li class="menu__opcion"><a href="../index.html">Inicio</a></li>
+                <li class="menu__opcion"><a href="imascotas.html">Mascotas</a></li>
+                <li class="menu__opcion"><a href="adopcion.html">Adopción</a></li>
+                <li class="menu__opcion"><a href="donaciones.html">Donaciones</a></li>
+                <li class="menu__opcion"><a href="paginas/nosotros.html">Nosotros</a></li>              
+         </div>
+    </div>
+ </nav>
     
     <main class="cuerpoHome">
     
@@ -30,7 +52,7 @@
     <h2 class="titulo">Mascotas</h2>
     
 
-   <div class="cardContenedor">
+ <!--   <div class="cardContenedor">
             <article class="card">
                 <img class="imgCard" src="../multimedia/Fotos/pexels-craig-adderley-1503537.jpg" alt="Bulldog Ingles">
                 <h3 class="nombre">Roma</h3>
@@ -46,36 +68,63 @@
                 <h3 class="nombre">Praga</h3>
                 <p class="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, optio?</p>
             </article>
-    </div>
+    </div> -->
+
+
+<div class="contenedorMascotas">
+    <div class="card col-md-12 col-sm-4" style="width: 18rem;">
+        <img src="../multimedia/Fotos/pexels-craig-adderley-1503537.jpg" class="card-img-top" alt="Bulldog Ingles">
+        <div class="card-body">
+          <h1 class="card-title">Roma</h1>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card col-md-12 col-sm-4" style="width: 18rem;">
+        <img src="../multimedia/Fotos/pexels-evg-kowalievska-1170986.jpg" class="card-img-top" alt="Gato Naranja">
+        <div class="card-body">
+          <h1 class="card-title">Ali</h1>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card col-md-12 col-sm-4" style="width: 18rem;">
+        <img src="../multimedia/Fotos/praga.jpg" class="card-img-top" alt="Bulldog Frances">
+        <div class="card-body">
+          <h1 class="card-title">Praga</h1>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+</div>
+
+
+
          
                     <!-- videos -->           
-        <h2  class="subtitulo" >Consejos</h2>
+<h2>Consejos</h2>
+
+<section class="video">
+    <article class="contenedorVideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kE3GmUSW__Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    <article class="contenedorVideo">    
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K7yXbq5aqIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+</section>
         
-        <section class="video">
-        <article class="contenedorVideo">
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/kE3GmUSW__Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-        <article class="contenedorVideo">    
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/K7yXbq5aqIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-        </section>
-        
-   
-   
-    </main>
-   
 
+<!--     Footer --> 
 
-
-
-  
-
-<footer class="footer">
-    <article class="footerOpcion">
-            <a href="http://www.instagram.com" target="_blank" class="footerOpcion" >Instagram</a>
-            <a href="http://www.Facebook.com" target="_blank" class="footerOpcion" >Facebook</a>
-            <a href="http://www.Twiiter.com" target="_blank" class="footerOpcion" >Twitter</a> 
-    </article>     
+<footer>
+    <ul class="footer nav justify-content-center">
+        <li class="nav-item footerOpcion">
+        <a class="nav-link" href="http://www.instagram.com">Instagram</a>
+        </li>
+        <li class="nav-item footerOpcion">
+        <a class="nav-link" href="http://www.Facebook.com">Facebook</a>
+        </li>
+        <li class="nav-item footerOpcion">
+        <a class="nav-link" href="http://www.Twiiter.com">Twitter</a>
+        </li>
+    </ul>
 </footer>
     
 </body>
