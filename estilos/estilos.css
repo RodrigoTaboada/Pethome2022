@@ -96,11 +96,23 @@ body {  display: grid;
   
 }
 
+/*BS*/
 
 .carouselSize{
     width: 20%;
     height: 70%;
     margin: auto;
+}
+
+.btn{
+    color: #E56B6F;
+    font: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+
+}
+
+
+.container-fluid{
+    height: 100%;
 }
 
 
@@ -165,7 +177,7 @@ a{
 }
 
 
-/*Test BS Index*/
+/*Test BS*/
 
 .textoCuerpo{
     text-align: center;
@@ -202,10 +214,15 @@ a{
 }
 
 
+h1{
+    color: #E56B6F;
+}
+
 h2{
     text-align: center;
     font-size: 5rem;
     font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+    margin: 7%;
 
 }
 
@@ -223,6 +240,7 @@ p{
     
 
 }
+
 
 
 /*footer*/
