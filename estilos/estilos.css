@@ -12,18 +12,7 @@ html, body {
     height: 100%;
 }
 
-/* Grids*/
-/*
-body {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 2.6fr 0.2fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "nav nav nav"
-      "cuerpoHome cuerpoHome cuerpoHome"
-      "footer footer footer";
-  }
-*/
+
 
 .cuerpo__multimedia{
     display: flex;
@@ -99,9 +88,10 @@ body {  display: grid;
 /*BS*/
 
 .carouselSize{
-    width: 20%;
-    height: 70%;
+    width: 70%;
+    height: auto;
     margin: auto;
+    border-radius: 10px;
 }
 
 .btn{
@@ -130,7 +120,7 @@ body {  display: grid;
     display: inline;
     font-size: 2rem;
     font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
-    margin: 1rem;
+    margin: 0 2rem;
     
 }
 
@@ -241,6 +231,11 @@ p{
 
 }
 
+.carousel{
+background-color: #355070;
+}
+
+
 
 
 /*footer*/
@@ -251,8 +246,7 @@ footer {
     align-items: center;
     text-align: center;
     background-color: #355070;
-    size: 5rem;
-    margin-top: 5rem;
+    margin-top: 37%;
     
 
 }
@@ -373,7 +367,13 @@ option{
 
 
 
+
 /* Multimedia*/
+
+
+.card2{
+    margin-top: 13%;
+}
 
 .fotosNosotros{
     margin: 0 15%;
@@ -407,7 +407,7 @@ img{
     padding: 10%;
     height: 75%;
     width: 75%;
-    border-radius: 4rem;
+    border-radius: 11em;
     
 }
 
@@ -456,8 +456,81 @@ img{
     width: 1%;
 }
 
+
+.cardSize{
+    width: 60%;
+    height: 10%;
+}
+
+
+.carousel-control-next{
+    color: #E56B6F;
+}
+
+
+
+@media screen and (max-width:425px){
+    h2{
+        font-size: 2rem;
+    }
+
+    .carouselSize{
+        height: 22%;
+        width: 60%;
+    }
+    
+    .CarCard{
+        width: 85%;
+    }
+
+    img{
+        padding: 9%;
+    }
+
+    
+    .footerOpcion a {
+        font-size: 1rem;
+    }
+
+
+
+    .card-body{
+        padding: 0;
+    }
+
+    p{
+        font-size: 17px;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .card{
+        padding: 8px;
+    }
+
+
+    .contenedorVideo{
+        width: 100%;
+    }
+    
+
+    .nav{
+        padding: 0;
+    }
+
+
+}
+
+
+
+
 /*medias*/
 
+
+/*
 @media screen and (max-width:425px){
 
 
@@ -507,7 +580,7 @@ h2{
 }
 
 
-/*
+
 .card{
     display: flex;
     flex-direction: column;
@@ -515,7 +588,7 @@ h2{
     width: auto;
 
 }
-*/
+
 
 iframe{
     width: 100%;
@@ -545,3 +618,5 @@ iframe{
     font-size: 2rem;
 }
 }
+
+/*

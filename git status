@@ -1,0 +1,53 @@
+[33mcommit 1c1c1593e920d2c1879a5fef124f00c8b777430d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mbootstrap[m[33m)[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Thu Jul 7 21:12:01 2022 -0300
+
+    Agregue link de BS a mascotas y donaciones..
+
+[33mcommit 0a1119968122c00d274e59954464e2ce478aa1f9[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Thu Jul 7 20:51:06 2022 -0300
+
+    Agregando bootsrap como puedo..
+
+[33mcommit 326be6ffe6ebf9ec3113d07ba9460014a082a2f8[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 21:34:55 2022 -0300
+
+    Agregue un mejor tamaño para las fotos del index
+
+[33mcommit f87a16dc3a9ed80e69399ed4dc00f4e1b47a6d67[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 20:48:01 2022 -0300
+
+    Arregle el tamaño de la foto2 del index
+
+[33mcommit 2df270c50d0a58eceaf872719f7331d8d90e8f48[m[33m ([m[1;32mgradientes[m[33m)[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 20:36:48 2022 -0300
+
+    agregue un movimiento al titulo
+
+[33mcommit 14aa124e9ca1000c8a0069873bddd83a4749d2d1[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 20:18:57 2022 -0300
+
+    agregue transiciones a las imagenes del index
+
+[33mcommit 3dc084862481831a144ef946ca1bc26f955ba967[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 20:10:37 2022 -0300
+
+    agregue gradientes al index
+
+[33mcommit 5d53ec0e3d99ac27c1db550303b6bedbdd808d18[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Tue Jul 5 19:44:10 2022 -0300
+
+    Arreglos de fotos en refugio
+
+[33mcommit aef5ca516b98d9765268f1d07eb95e2eb63fa490[m[33m ([m[1;32mmaster[m[33m, [m[1;32manimaciones[m[33m)[m
+Author: Rodrigo Taboada <rodri.taboada@gmail.com>
+Date:   Mon Jul 4 14:21:04 2022 -0300
+
+    Mi primer commit
