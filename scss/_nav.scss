@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: end;
+    background-color: $colorPrincipal;
+    padding: 2rem;
+
+}
+  
+.nav { grid-area: nav; }
+  
+  .cuerpoHome { grid-area: cuerpoHome; }
+  .footer { grid-area: footer; }
+  
+  

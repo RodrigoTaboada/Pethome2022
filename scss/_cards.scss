@@ -1,0 +1,20 @@
+.cardContenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 6%
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-radius: 10px;
+    background-color:$colorPrincipal;
+    text-align: center;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 40px;
+    margin: 19px;
+    justify-content: space-evenly;
+    padding: 21px;
+    width: 25%;
+}

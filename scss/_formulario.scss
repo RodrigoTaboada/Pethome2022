@@ -1,0 +1,85 @@
+form{
+    text-align: center;
+    width:300px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background-color: $colorPrincipal;
+    margin-top: 2%;
+}
+
+label{
+        width:72px;
+        font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+        margin-top: 4rem;
+        font-size: 2rem;
+    
+}
+
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    font-size: 3rem;
+    
+} 
+
+input{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+
+}
+
+textarea{
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+button {
+    padding      : 5px;
+    font         : bold .6em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.formLabel{
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 4rem;
+}
+
+
+.form-control{
+    margin: 10%;
+}
+
+.form-select{
+    font-size: 2rem;
+
+}
+
+.form-label{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+
+
+}
+
+option{
+    font-size: 1rem;
+}

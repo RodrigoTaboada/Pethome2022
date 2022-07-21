@@ -1,0 +1,87 @@
+
+.carouselSize{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn{
+    color: $colorSecundario;
+    font: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+
+}
+
+
+.container-fluid{
+    height: 100%;
+}
+
+
+.textoCuerpo{
+    text-align: center;
+    line-height: 4rem;
+    font-size: 3rem;
+    margin: 5rem 20%;
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-weight: normal;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+    margin: 2rem;
+
+}
+
+.parrafo{
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 12rem;
+
+}
+
+.parrafoMascotas{
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 12rem;
+}
+
+
+h1{
+    color: $colorSecundario;
+}
+
+h2{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+    margin: 7%;
+
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0 25%;
+    
+
+}
+
+.carousel{
+background-color: $colorPrincipal;
+}
+
+
+
