@@ -63,3 +63,29 @@ html, body {
 
 }
 
+$colores:(
+    nav: $colorPrincipal,
+    texto: $colorSecundario,
+);
+
+
+.nav{
+    background-color: map-get($colores, nav);
+}
+
+.titulo{
+    color: map-get($colores, texto );
+}
+
+@mixin sizes ($font-size, $margin) {
+    font-size: $font-size;
+    margin: $margin
+
+}
+
+.titulo2{
+    @include sizes(6rem, 2rem);
+}
+    
+
+
