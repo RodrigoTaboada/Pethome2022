@@ -59,6 +59,7 @@ img{
 @media screen and (max-width:768px) {
     .video{
         margin: 0px 2%;
+        flex-direction: column;
     }
     
 }
@@ -79,7 +80,6 @@ img{
     width: 50%;
     justify-content: space-around;
     margin: auto;
-    
 }
 
 

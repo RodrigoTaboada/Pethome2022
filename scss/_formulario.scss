@@ -143,29 +143,51 @@ option{
     display: flex;
     border: 2px solid black;
     align-items: center;
-    margin: 5% 25%;
-    background-color: $colorSecundario;
+    margin: 6% 24%;
+    background-color: #E56B6F;
     p{
-        margin: 0 8%;
+        margin: 0 4%;
         font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
         color: #355070;
-        font-size: 25px;
-        font-weight: bold
+        font-size: 23px;
+        font-weight: bold;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .formAyuda{
+    p{
+        font-size: 11px;
+}
+}
+}
+
 
 @media screen and (max-width: 768px){
     .formAyuda{
+        margin: 5% 7%;
     p{
-    font-size: 17px;
+        margin: 0 7%;
+        font-size: 14px;
 }
-    }
-
+}
 }
 
-@media screen and (max-width:428px){
+@media screen and (max-width: 425px){
+    .formAyuda{
+    p{
+    margin: 0px 4%;
+    font-size: 11px;        
+}
+}
+}
+
+
+
+@media screen and (max-width:425px){
     .requisitos{
-        font-size: 17px;
+        font-size: 15px;
+        margin: 6% 6%;
     }
 
 }

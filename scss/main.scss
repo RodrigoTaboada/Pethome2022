@@ -26,9 +26,10 @@ html, body {
     height: 100%;
     h4{
         text-align: center;
-        margin: 5% 18%;
-        background-color: $colorSecundario;
+        margin: 5% 29%;
+        background-color: #E56B6F;
         border-radius: 26px;
+        padding: 3%;
     }
     h5{
         text-align: center;
@@ -38,6 +39,35 @@ html, body {
         
 }
 
+
+@media screen and (max-width:768px){
+    body{
+        h4{
+        margin: 10% 27%;
+    }
+}
+    img{
+        height: 32rem;
+}
+
+}
+
+
+@media screen and (max-width:428px){
+    body{
+        h4{
+        margin: 7% 12%;
+    }
+}
+    
+}
+
+    
+
+.container-fluid{
+    margin-bottom: 7%;
+    height: 80%;
+}
 
 
 .cuerpo__multimedia{
@@ -103,8 +133,6 @@ h2{
 }
 
 
-.container-fluid{
-    margin-bottom: 11%;
-}
+
 
 

@@ -227,22 +227,35 @@ option {
   display: flex;
   border: 2px solid black;
   align-items: center;
-  margin: 5% 25%;
+  margin: 6% 24%;
   background-color: #E56B6F; }
   .formAyuda p {
-    margin: 0 8%;
+    margin: 0 4%;
     font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
     color: #355070;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .formAyuda p {
-    font-size: 17px; } }
+    font-size: 11px; } }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
+  .formAyuda {
+    margin: 5% 7%; }
+    .formAyuda p {
+      margin: 0 7%;
+      font-size: 14px; } }
+
+@media screen and (max-width: 425px) {
+  .formAyuda p {
+    margin: 0px 4%;
+    font-size: 11px; } }
+
+@media screen and (max-width: 425px) {
   .requisitos {
-    font-size: 17px; } }
+    font-size: 15px;
+    margin: 6% 6%; } }
 
 @media screen and (max-width: 425px) {
   h2 {
@@ -282,11 +295,6 @@ option {
   .titulo2 {
     margin: 1rem;
     font-size: 5rem; }
-  .formAyuda {
-    display: flex;
-    flex-direction: column; }
-    .formAyuda p {
-      margin: 12px; }
   .formulario {
     width: 90%; }
   .contenedorVideo iframe {
@@ -372,7 +380,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .video {
-    margin: 0px 2%; } }
+    margin: 0px 2%;
+    flex-direction: column; } }
 
 .foto {
   display: flex;
@@ -428,9 +437,7 @@ img {
   a {
     font-size: 10px; }
   form {
-    width: 70%; }
-  .formAyuda {
-    margin: 5% 7%; } }
+    width: 70%; } }
 
 * {
   margin: 0;
@@ -442,14 +449,29 @@ html, body {
   height: 100%; }
   html h4, body h4 {
     text-align: center;
-    margin: 5% 18%;
+    margin: 5% 29%;
     background-color: #E56B6F;
-    border-radius: 26px; }
+    border-radius: 26px;
+    padding: 3%; }
   html h5, body h5 {
     text-align: center;
     margin: 5% 18%;
     background-color: #E56B6F;
     border-radius: 26px; }
+
+@media screen and (max-width: 768px) {
+  body h4 {
+    margin: 10% 27%; }
+  img {
+    height: 32rem; } }
+
+@media screen and (max-width: 428px) {
+  body h4 {
+    margin: 7% 12%; } }
+
+.container-fluid {
+  margin-bottom: 7%;
+  height: 80%; }
 
 .cuerpo__multimedia {
   display: flex;
@@ -485,6 +507,3 @@ html, body {
 
 h2 {
   margin: 4%; }
-
-.container-fluid {
-  margin-bottom: 11%; }
