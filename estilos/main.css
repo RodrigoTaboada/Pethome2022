@@ -268,7 +268,7 @@ option {
   img {
     padding: 9%; }
   .footerOpcion a {
-    font-size: 10px; }
+    font-size: 20px; }
   .card-body {
     padding: 0; }
   p {
@@ -326,7 +326,8 @@ option {
   display: inline;
   font-size: 2rem;
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
-  margin: 0 2rem; }
+  margin: 0 2rem;
+  text-decoration: none; }
   .menu__opcion a {
     text-decoration: none;
     color: #E56B6F; }
@@ -445,8 +446,6 @@ img {
   color: #E56B6F; }
 
 .nav {
-  display: flex;
-  justify-content: end;
   background-color: #355070;
   padding: 4px;
   text-decoration: none; }
@@ -469,6 +468,9 @@ img {
 
 .navbar-brand {
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif; }
+
+.container-fluid {
+  margin-bottom: 2% !important; }
 
 @media screen and (max-width: 768px) {
   a {
@@ -544,7 +546,9 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .titulo {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .nav-item {
+    display: inline; } }
 
 .nav {
   background-color: #355070; }
@@ -558,3 +562,8 @@ html, body {
 
 h2 {
   margin: 4%; }
+
+.menu__opcion {
+  font-size: 2rem;
+  margin: 0;
+  display: in; }

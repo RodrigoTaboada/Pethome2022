@@ -1,6 +1,4 @@
 .nav{
-    display: flex;
-    justify-content: end;
     background-color: $colorPrincipal;
     padding: 4px;
     text-decoration: none;
@@ -24,6 +22,10 @@
 .navbar-brand{
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
 
+}
+
+.container-fluid{
+  margin-bottom: 2% !important;
 }
 
 
