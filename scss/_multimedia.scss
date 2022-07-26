@@ -15,7 +15,15 @@ img{
     padding: 10%;
     width: 100%;
     border-radius: 8rem;
+}
 
+
+
+
+.contenedorVideo{
+    iframe{
+        margin: 10px;
+}
 }
 
 
@@ -64,28 +72,28 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 15%;
+    margin: 10px 15%;
     align-items: center;
     
 }
 
 @media screen and (max-width:768px) {
-    .contenedorVideo{
+    .video{
+        display: flex;
         flex-direction: column;
-    }
-    
+        margin: 10px 6%;
+}
 }
 
 
 @media screen and (max-width:425px) {
-    .contenedorVideo{
+        .video{
         display: flex;
         flex-direction: column;
-        margin: 0px 15%;
+        margin: 10px 6%;
         
-    }
-    
-}
+    }        
+    }    
 
 
 

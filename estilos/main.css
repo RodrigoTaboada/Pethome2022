@@ -304,14 +304,15 @@ option {
   .formulario {
     width: 90%; }
   .contenedorVideo iframe {
-    width: 100%; } }
+    width: 100%;
+    margin: 5% 0; } }
 
 @media screen and (max-width: 768px) {
   .video {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0 15%;
+    margin: 0 4%;
     align-items: center; } }
 
 .menu {
@@ -359,6 +360,9 @@ img {
   width: 100%;
   border-radius: 8rem; }
 
+.contenedorVideo iframe {
+  margin: 10px; }
+
 .imgCard {
   display: flex;
   padding: 10%;
@@ -386,18 +390,20 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 0 15%;
+  margin: 10px 15%;
   align-items: center; }
 
 @media screen and (max-width: 768px) {
-  .contenedorVideo {
-    flex-direction: column; } }
-
-@media screen and (max-width: 425px) {
-  .contenedorVideo {
+  .video {
     display: flex;
     flex-direction: column;
-    margin: 0px 15%; } }
+    margin: 10px 6%; } }
+
+@media screen and (max-width: 425px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 6%; } }
 
 .foto {
   display: flex;
@@ -478,8 +484,8 @@ html, body {
 @media screen and (max-width: 768px) {
   body h4 {
     margin: 10% 27%; }
-  img {
-    height: 32rem; } }
+  .fotos img {
+    height: 24rem; } }
 
 @media screen and (max-width: 425px) {
   body h4 {
