@@ -8,6 +8,13 @@
 }
 
 
+
+.foto1{
+    background-color: $colorPrincipal;
+    margin: 0 4%;
+
+}
+
 img{
     display: flex;
     height: 24rem;
@@ -113,13 +120,24 @@ img{
     margin: auto;
 }
 
+.fotos{
+    img{
+        height: 55rem;
+}
+}
+
 
 @media screen and (max-width:768px) {
     .fotos{
         flex-direction: column;
         width: 100%;
-    }
-    
+        .foto1{
+            margin: 21px 0%;
+            img{
+                height: 32px;
+            }
+        }
+}
 }
 
 

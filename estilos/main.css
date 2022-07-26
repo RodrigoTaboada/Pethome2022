@@ -268,7 +268,7 @@ option {
   img {
     padding: 9%; }
   .footerOpcion a {
-    font-size: 21px; }
+    font-size: 10px; }
   .card-body {
     padding: 0; }
   p {
@@ -352,6 +352,10 @@ a {
 .fotosNosotros {
   margin: 0 15%; }
 
+.foto1 {
+  background-color: #355070;
+  margin: 0 4%; }
+
 img {
   display: flex;
   height: 24rem;
@@ -417,10 +421,17 @@ img {
   justify-content: space-around;
   margin: auto; }
 
+.fotos img {
+  height: 55rem; }
+
 @media screen and (max-width: 768px) {
   .fotos {
     flex-direction: column;
-    width: 100%; } }
+    width: 100%; }
+    .fotos .foto1 {
+      margin: 21px 0%; }
+      .fotos .foto1 img {
+        height: 32px; } }
 
 .w-100 {
   height: 1%;
@@ -450,7 +461,11 @@ img {
   grid-area: footer; }
 
 .navbar {
-  padding-top: 0; }
+  padding-top: 0;
+  text-decoration: none; }
+
+.bg-dark {
+  background-color: #355070; }
 
 .navbar-brand {
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif; }
@@ -471,7 +486,7 @@ html, body {
   height: 100%; }
   html h4, body h4 {
     text-align: center;
-    margin: 18% 29%;
+    margin: 9% 29%;
     background-color: #E56B6F;
     border-radius: 26px;
     padding: 3%; }
@@ -485,7 +500,7 @@ html, body {
   body h4 {
     margin: 10% 27%; }
   .fotos img {
-    height: 24rem; } }
+    height: 30rem; } }
 
 @media screen and (max-width: 425px) {
   body h4 {
