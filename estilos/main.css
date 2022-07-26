@@ -483,7 +483,7 @@ html, body {
 
 @media screen and (max-width: 425px) {
   body h4 {
-    margin: 28% 3%; } }
+    margin: 13% 3%; } }
 
 .container-fluid {
   margin-bottom: 7%;
@@ -505,9 +505,15 @@ html, body {
   grid-template-rows: 0.5fr 1fr;
   grid-template-areas: "header header header" "main main footer"; }
 
+.headline {
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+  color: #E56B6F; }
+
 .titulo {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
   color: #E56B6F; }
 
@@ -517,7 +523,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .titulo {
-    font-size: 3rem; } }
+    font-size: 2rem; } }
 
 .nav {
   background-color: #355070; }
