@@ -124,12 +124,12 @@ footer {
 
 @media screen and (max-width: 425px) {
   .footerOpcion a {
-    font-size: 26px;
+    font-size: 21px;
     margin: 0; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
   .footerOpcion a {
-    font-size: 26px;
+    font-size: 21px;
     margin: 0; } }
 
 .footerLinks a {
@@ -212,7 +212,7 @@ option {
 
 .opcionesAdopcion {
   margin-top: 20%;
-  font-size: 150%;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: bold; }
   .opcionesAdopcion .opcionesAnimales {
@@ -456,7 +456,8 @@ img {
     align-items: center; }
     .fotos .foto1 {
       align-items: center;
-      margin: 21px 0%; }
+      margin: 21px 0%;
+      width: 97%; }
       .fotos .foto1 img {
         height: 32px; } }
 
