@@ -7,7 +7,12 @@
 
 }
 
-
+.fotos{
+    width: 50%;
+    img{
+        height: 36rem;
+    }
+}
 
 .foto1{
     background-color: $colorPrincipal;
@@ -17,10 +22,10 @@
 
 img{
     display: flex;
-    height: 24rem;
+    height: 45rem;
     margin: auto;
-    padding: 10%;
-    width: 100%;
+    padding: 3%;
+    width: 76%;
     border-radius: 8rem;
 }
 
@@ -98,10 +103,11 @@ img{
         display: flex;
         flex-direction: column;
         margin: 10px 6%;
-        
-    }        
-    }    
-
+}      
+        .fotos{
+            width: 77%;
+        }
+}
 
 
 
@@ -118,11 +124,12 @@ img{
     width: 50%;
     justify-content: space-around;
     margin: auto;
+    
 }
 
 .fotos{
     img{
-        height: 55rem;
+        height: 36rem;
 }
 }
 
@@ -131,7 +138,9 @@ img{
     .fotos{
         flex-direction: column;
         width: 100%;
+        align-items: center;
         .foto1{
+            align-items: center;
             margin: 21px 0%;
             img{
                 height: 32px;
