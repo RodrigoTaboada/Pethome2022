@@ -1,5 +1,5 @@
 .carouselSize {
-  width: 70%;
+  width: 37%;
   height: auto;
   margin: auto;
   border-radius: 10px; }
@@ -197,7 +197,8 @@ option {
 .opcionesAdopcion {
   margin-top: 20%;
   font-size: 150%;
-  font-family: fantasy; }
+  font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+  font-weight: bold; }
   .opcionesAdopcion .opcionesAnimales {
     width: 10%; }
 
