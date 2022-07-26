@@ -78,13 +78,31 @@ p {
   padding: 21px;
   width: 25%; }
 
+.card-body p {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: left;
+  margin: 0 5%; }
+
+.botonMascotas {
+  margin-top: 20%;
+  background-color: #E56B6F;
+  border: 2px solid black; }
+  .botonMascotas a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 13%;
+    font-size: 20px; }
+
 footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
   background-color: #355070;
-  margin-top: 37%; }
+  margin-top: 15%; }
 
 .footerOpcion a {
   font-size: 3rem;
@@ -105,17 +123,22 @@ footer {
 
 form {
   text-align: center;
-  width: 300px;
+  width: 25%;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
   background-color: #355070;
-  margin-top: 2%; }
+  margin-top: 10%; }
+  form p {
+    font-size: 2rem;
+    color: #E56B6F; }
+  form .formDonacion {
+    margin: 7% 0 0 0; }
 
 label {
   width: auto;
   font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-  margin-top: 4rem;
+  margin-top: 2rem;
   font-size: 150%; }
 
 form input[type="submit"] {
@@ -132,7 +155,8 @@ form input[type="submit"] {
 input {
   text-align: center;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif; }
+  font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+  width: 100%; }
 
 textarea {
   margin-top: 2rem;
@@ -172,13 +196,17 @@ option {
 
 .opcionesAdopcion {
   margin-top: 20%;
-  font-size: 150%; }
+  font-size: 150%;
+  font-family: fantasy; }
+  .opcionesAdopcion .opcionesAnimales {
+    width: 10%; }
 
 .button, .botonAceptar, .botonRechazar {
   text-align: center;
   size: 1rem;
   border: solid 2px black;
-  background-color: none; }
+  background-color: none;
+  width: 100%; }
 
 .botonAceptar {
   background-color: green; }
@@ -186,18 +214,48 @@ option {
 .botonRechazar {
   background-color: red; }
 
+.requisitos {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin: 4% 12%;
+  border: 2px solid black;
+  background-color: #E56B6F; }
+
+.formAyuda {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  margin: 5% 25%;
+  background-color: #E56B6F; }
+  .formAyuda p {
+    margin: 0 8%;
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    color: #355070;
+    font-size: 25px;
+    font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .formAyuda p {
+    font-size: 17px; } }
+
+@media screen and (max-width: 428px) {
+  .requisitos {
+    font-size: 17px; } }
+
 @media screen and (max-width: 425px) {
   h2 {
-    font-size: 2rem; }
+    font-size: 4rem; }
   .carouselSize {
     height: 22%;
-    width: 60%; }
+    width: 100%; }
   .CarCard {
     width: 85%; }
   img {
     padding: 9%; }
   .footerOpcion a {
-    font-size: 1rem; }
+    font-size: 21px; }
   .card-body {
     padding: 0; }
   p {
@@ -206,11 +264,41 @@ option {
   h1 {
     font-size: 2rem; }
   .card {
-    padding: 8px; }
+    padding: 8px;
+    width: 100%; }
   .contenedorVideo {
     width: 100%; }
   .nav {
-    padding: 0; } }
+    padding: 0; }
+  .botonMascotas {
+    background-color: #E56B6F;
+    border: 2px solid black;
+    margin: 7%; }
+  .row {
+    justify-content: center;
+    display: flex; }
+  .contenedorVideo {
+    width: 100%; }
+  .titulo2 {
+    margin: 1rem;
+    font-size: 5rem; }
+  .formAyuda {
+    display: flex;
+    flex-direction: column; }
+    .formAyuda p {
+      margin: 12px; }
+  .formulario {
+    width: 90%; }
+  .contenedorVideo iframe {
+    width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 15%;
+    align-items: center; } }
 
 .menu {
   background-color: #355070;
@@ -271,22 +359,20 @@ img {
   width: 75%;
   border-radius: 11em; }
 
-.contenedorVideo {
-  width: 50%; }
-
 .contenedorMascotas {
   display: flex;
   justify-content: center; }
 
 .video {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
-  margin: 2rem;
+  margin: 0 15%;
   align-items: center; }
 
-.video iframe {
-  width: 100%; }
+@media screen and (max-width: 768px) {
+  .video {
+    margin: 0px 2%; } }
 
 .foto {
   display: flex;
@@ -299,6 +385,11 @@ img {
   width: 50%;
   justify-content: space-around;
   margin: auto; }
+
+@media screen and (max-width: 768px) {
+  .fotos {
+    flex-direction: column;
+    width: 100%; } }
 
 .w-100 {
   height: 1%;
@@ -315,7 +406,8 @@ img {
   display: flex;
   justify-content: end;
   background-color: #355070;
-  padding: 2rem; }
+  padding: 4px;
+  text-decoration: none; }
 
 .nav {
   grid-area: nav; }
@@ -326,6 +418,20 @@ img {
 .footer {
   grid-area: footer; }
 
+.navbar {
+  padding-top: 0; }
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif; }
+
+@media screen and (max-width: 769px) {
+  a {
+    font-size: 10px; }
+  form {
+    width: 70%; }
+  .formAyuda {
+    margin: 5% 7%; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -334,6 +440,16 @@ img {
 html, body {
   width: 100%;
   height: 100%; }
+  html h4, body h4 {
+    text-align: center;
+    margin: 5% 18%;
+    background-color: #E56B6F;
+    border-radius: 26px; }
+  html h5, body h5 {
+    text-align: center;
+    margin: 5% 18%;
+    background-color: #E56B6F;
+    border-radius: 26px; }
 
 .cuerpo__multimedia {
   display: flex;
@@ -355,7 +471,6 @@ html, body {
   text-align: center;
   font-size: 5rem;
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
-  margin: 1rem;
   color: #E56B6F; }
 
 .nav {
@@ -365,5 +480,11 @@ html, body {
   color: #E56B6F; }
 
 .titulo2 {
-  font-size: 6rem;
-  margin: 2rem; }
+  margin: 5rem;
+  font-size: 2rem; }
+
+h2 {
+  margin: 4%; }
+
+.container-fluid {
+  margin-bottom: 11%; }

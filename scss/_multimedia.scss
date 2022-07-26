@@ -39,9 +39,7 @@ img{
 }
 
 
-.contenedorVideo{
-    width: 50%; 
-}
+
 
 .contenedorMascotas{
     display: flex;
@@ -51,16 +49,22 @@ img{
 
 .video{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 2rem;
+    margin: 0 15%;
     align-items: center;
+    
+}
+
+@media screen and (max-width:768px) {
+    .video{
+        margin: 0px 2%;
+    }
+    
 }
 
 
-.video iframe{
-    width: 100%;
-}
+
 
 .foto{
     display: flex;
@@ -78,6 +82,16 @@ img{
     
 }
 
+
+@media screen and (max-width:768px) {
+    .fotos{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+
+
 .w-100{
     height: 1%;
     width: 1%;
@@ -93,3 +107,5 @@ img{
 .carousel-control-next{
     color: $colorSecundario;
 }
+
+

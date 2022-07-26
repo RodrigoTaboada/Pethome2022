@@ -24,6 +24,18 @@ $colorSecundario: #E56B6F;
 html, body {
     width: 100%;
     height: 100%;
+    h4{
+        text-align: center;
+        margin: 5% 18%;
+        background-color: $colorSecundario;
+        border-radius: 26px;
+    }
+    h5{
+        text-align: center;
+        margin: 5% 18%;
+        background-color: $colorSecundario;
+        border-radius: 26px}
+        
 }
 
 
@@ -39,10 +51,9 @@ html, body {
     gap: 20px;
     margin-bottom: 17px;
     
-  }
+}
 
 
-  
 .bodyProductos{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 0.5fr 1fr;
@@ -58,7 +69,6 @@ html, body {
     text-align: center;
     font-size: 5rem;
     font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
-    margin: 1rem;
     color: #E56B6F;
 
 }
@@ -83,9 +93,18 @@ $colores:(
 
 }
 
+
 .titulo2{
-    @include sizes(6rem, 2rem);
+    margin: 5rem;
+    font-size: 2rem;
 }
-    
+h2{
+    margin: 4%;
+}
+
+
+.container-fluid{
+    margin-bottom: 11%;
+}
 
 

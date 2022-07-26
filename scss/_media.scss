@@ -1,11 +1,11 @@
 @media screen and (max-width:425px){
     h2{
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .carouselSize{
         height: 22%;
-        width: 60%;
+        width: 100%;
     }
     
     .CarCard{
@@ -18,7 +18,7 @@
 
     
     .footerOpcion{
-        a {font-size: 1rem;
+        a {font-size: 21px;
         }
     }
 
@@ -39,6 +39,7 @@
 
     .card{
         padding: 8px;
+        width: 100%;
     }
 
 
@@ -52,4 +53,60 @@
     }
 
 
+.botonMascotas{
+    background-color: #E56B6F;
+    border: 2px solid black;
+    margin: 7%;
 }
+
+.row{
+    justify-content: center;
+    display: flex;
+}
+
+
+.contenedorVideo {
+        width: 100%;
+}
+
+.titulo2{
+    margin: 1rem;
+    font-size: 5rem;
+}
+
+.formAyuda{
+        display: flex;
+        flex-direction: column;
+    p{
+        margin: 12px;
+    }
+}
+
+.formulario{
+    width: 90%;
+}
+
+.contenedorVideo{
+    iframe{
+    width: 100%;
+}
+}
+
+
+
+}
+
+
+@media screen and(max-width:768px)
+{
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 15%;
+        align-items: center;
+}
+    
+}
+
+

@@ -25,10 +25,10 @@ html, body {
     gap: 20px;
     margin-bottom: 17px;
     
-  }
+}
 
 
-  
+
 .bodyProductos{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 0.5fr 1fr;
@@ -47,14 +47,12 @@ html, body {
     padding: 2rem;
 
 }
-  
+
 .nav { grid-area: nav; }
-  
-  .cuerpoHome { grid-area: cuerpoHome; }
-   .footer { grid-area: footer; }
-  
-  
-/*
+
+.cuerpoHome { grid-area: cuerpoHome; }
+.footer { grid-area: footer; }
+ *
 
 
 
@@ -81,8 +79,6 @@ html, body {
     justify-content: space-evenly;
     padding: 21px;
     width: 25%;
-
-  
 }
 
 /*BS*/

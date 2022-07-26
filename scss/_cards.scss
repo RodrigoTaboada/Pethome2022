@@ -18,3 +18,27 @@
     padding: 21px;
     width: 25%;
 }
+
+
+.card-body{
+    p{  display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        text-align: left;
+        margin: 0 5%;
+    
+    }
+}
+
+.botonMascotas{
+    margin-top: 20%;
+    background-color: $colorSecundario;
+    border: 2px solid black;
+    a{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 13%;
+        font-size: 20px;
+    }
+}
