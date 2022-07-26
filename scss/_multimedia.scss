@@ -19,6 +19,9 @@ img{
 }
 
 
+
+
+
 .imgCard{
     display: flex; 
     padding: 10%;
@@ -36,6 +39,16 @@ img{
     width: 75%;
     border-radius: 11em;
     
+}
+
+
+@media screen and (max-width:425px){
+    .cardCard{
+        img{
+        padding: 4%;
+        width: 75%;
+    }
+}
 }
 
 
@@ -57,9 +70,19 @@ img{
 }
 
 @media screen and (max-width:768px) {
-    .video{
-        margin: 0px 2%;
+    .contenedorVideo{
         flex-direction: column;
+    }
+    
+}
+
+
+@media screen and (max-width:425px) {
+    .contenedorVideo{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 15%;
+        
     }
     
 }

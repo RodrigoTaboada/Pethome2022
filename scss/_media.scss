@@ -4,7 +4,7 @@
     }
 
     .carouselSize{
-        height: 22%;
+        height: 31%;
         width: 100%;
     }
     
@@ -70,8 +70,15 @@
 }
 
 .titulo2{
-    margin: 1rem;
-    font-size: 5rem;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:425px){
+    .titulo2{
+        font-size: 1rem;
+}
 }
 
 

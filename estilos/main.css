@@ -261,7 +261,7 @@ option {
   h2 {
     font-size: 4rem; }
   .carouselSize {
-    height: 22%;
+    height: 31%;
     width: 100%; }
   .CarCard {
     width: 85%; }
@@ -293,8 +293,14 @@ option {
   .contenedorVideo {
     width: 100%; }
   .titulo2 {
-    margin: 1rem;
-    font-size: 5rem; }
+    margin: 2rem;
+    font-size: 2rem; } }
+
+@media screen and (max-width: 425px) and (max-width: 425px) {
+  .titulo2 {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 425px) {
   .formulario {
     width: 90%; }
   .contenedorVideo iframe {
@@ -367,6 +373,11 @@ img {
   width: 75%;
   border-radius: 11em; }
 
+@media screen and (max-width: 425px) {
+  .cardCard img {
+    padding: 4%;
+    width: 75%; } }
+
 .contenedorMascotas {
   display: flex;
   justify-content: center; }
@@ -379,9 +390,14 @@ img {
   align-items: center; }
 
 @media screen and (max-width: 768px) {
-  .video {
-    margin: 0px 2%;
+  .contenedorVideo {
     flex-direction: column; } }
+
+@media screen and (max-width: 425px) {
+  .contenedorVideo {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15%; } }
 
 .foto {
   display: flex;
@@ -433,7 +449,7 @@ img {
 .navbar-brand {
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif; }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   a {
     font-size: 10px; }
   form {
@@ -449,7 +465,7 @@ html, body {
   height: 100%; }
   html h4, body h4 {
     text-align: center;
-    margin: 5% 29%;
+    margin: 18% 29%;
     background-color: #E56B6F;
     border-radius: 26px;
     padding: 3%; }
@@ -465,9 +481,9 @@ html, body {
   img {
     height: 32rem; } }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 425px) {
   body h4 {
-    margin: 7% 12%; } }
+    margin: 28% 3%; } }
 
 .container-fluid {
   margin-bottom: 7%;
@@ -491,9 +507,17 @@ html, body {
 
 .titulo {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
   color: #E56B6F; }
+
+@media screen and (max-width: 425px) {
+  .titulo {
+    font-size: 2rem; } }
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 3rem; } }
 
 .nav {
   background-color: #355070; }
@@ -502,8 +526,8 @@ html, body {
   color: #E56B6F; }
 
 .titulo2 {
-  margin: 5rem;
-  font-size: 2rem; }
+  margin: 2rem;
+  font-size: 1rem; }
 
 h2 {
   margin: 4%; }
