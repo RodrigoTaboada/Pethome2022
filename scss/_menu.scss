@@ -7,7 +7,7 @@
 }
 
 .nav{
-    height: 10%;
+    height: 15%;
     margin: 0;
 }
 
@@ -23,6 +23,15 @@
         color: $colorSecundario;
     }
     
+}
+
+
+@media screen and(max-width: 320px){
+    .nav{
+    .menu__opcion{
+        font-size: 0.9rem;
+    }
+}
 }
 
 

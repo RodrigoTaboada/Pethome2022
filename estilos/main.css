@@ -125,12 +125,12 @@ footer {
 
 @media screen and (max-width: 425px) {
   .footerOpcion a {
-    font-size: 21px;
+    font-size: 31px;
     margin: 0; } }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .footerOpcion a {
-    font-size: 21px;
+    font-size: 31px;
     margin: 0; } }
 
 .footerLinks a {
@@ -275,7 +275,7 @@ option {
     font-size: 15px;
     margin: 6% 6%; } }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 320px) {
   .carouselSize {
     height: auto;
     width: 100%; }
@@ -306,9 +306,7 @@ option {
     display: flex; }
   .titulo2 {
     margin: 2rem;
-    font-size: 2rem; } }
-
-@media screen and (max-width: 325px) and (max-width: 320px) {
+    font-size: 2rem; }
   .formulario {
     width: 90%; }
   .carousel-item img {
@@ -319,8 +317,8 @@ option {
   .titulo2 {
     font-size: 1rem; }
   .titulo3 {
-    font-size: 200%;
-    margin: 12% 30%; } }
+    font-size: 102%;
+    margin: 12% 27%; } }
 
 @media screen and (max-width: 768px) {
   .video {
@@ -338,7 +336,7 @@ option {
   padding: 2rem; }
 
 .nav {
-  height: 10%;
+  height: 15%;
   margin: 0; }
 
 .menu__opcion {
@@ -350,6 +348,10 @@ option {
   .menu__opcion a {
     text-decoration: none;
     color: #E56B6F; }
+
+@media screen and (max-width: 320px) {
+  .nav .menu__opcion {
+    font-size: 0.9rem; } }
 
 .navbar-light .navbar-brand {
   color: #E56B6F; }
@@ -606,9 +608,10 @@ html, body {
 
 .headline {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
-  color: #E56B6F; }
+  color: #E56B6F;
+  text-decoration: underline #E56B6F; }
 
 .titulo {
   text-align: center;
