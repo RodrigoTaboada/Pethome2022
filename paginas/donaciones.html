@@ -22,7 +22,7 @@
 <div>
 <nav class="navbar navbar-expand-lg navbar-dark nav menu1">
     <div class="container-fluid ">
-    <a class="navbar h1" href="#">PET HOME</a>
+    <p class="logo">PET HOME</p>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
 
 <h1 class="headline animate__animated animate__bounce">Formulario</h1>
 
-    <h3>¿Cómo Puedo Ayudar?</h3>
+    <h2>¿Cómo Puedo Ayudar?</h2>
     <div class="formAyuda">
         <p>*Podés hacerlo completando el Formulario de Donaciones presente en ésta página.</p>
 
@@ -62,19 +62,20 @@
         <form  class="formulario" action="">
             <p>Formulario</p>
             <label for=""></label>
-                <input class="formImput type="text" placeholder="Ingresa tu nombre y apellido" name="nombre" id="" required>
+                <input class="formImput" type="text" placeholder="Ingresa tu nombre y apellido" name="nombre" id="" required>
             <label for=""></label>
-                <input class="formImput type="text" placeholder="Edad" name="edad" id="" required>
+                <input class="formImput" type="text" placeholder="Edad" name="edad" id="" required>
             <label for=""></label>
-                <input class="formImput type="text" placeholder=Teléfono name="Telefono" id="" required>
+                <input class="formImput" type="number" placeholder=Teléfono name="Telefono" id="" required>
             <label for=""></label>
-                <input class="formImput type="text" placeholder="Dirección" name="Dirección" id="" required>
+                <input class="formImput" type="text" placeholder="Dirección" name="Dirección" id="" required>
             <label for=""></label>
-                <input class="formImput type="text" placeholder="Localidad" name="Localidad" id="" required>
+                <input class="formImput" type="text" placeholder="Localidad" name="Localidad" id="" required>
             <label for=""></label>
-                <input class="formImput type="text" placeholder="Provincia" name="Provincia" id="" required>  
+                <input class="formImput" type="text" placeholder="Provincia" name="Provincia" id="" required>  
             <label for=""></label>
-                <input class="formImput type="email" placeholder="E-mail" name="correo" id="" required>
+                <input type="email" name="email" id="correo" placeholder=" " required class="form__input">
+                
                 
 <!-- Form Radio -->
         
@@ -83,8 +84,7 @@
                 <input class="opcionesAnimales"  class="formImput" type="radio" name="raza" value="$1000" id="" > $1000
                 <input class="opcionesAnimales" class="formImput" type="radio" name="raza" value="$5000" id=""> $5000
                 <input class="opcionesAnimales" class="formImput" type="radio" name="raza" value="$10000" id=""> $10000
-                <button class="botonAceptar" type="submit" class="btn">Enviar</button>
-                <button class="botonRechazar" type="submit" class="btn">Cancelar</button>
+                <input type="submit" value="Enviar" class="button">
                 </article>
             </section>
         </form>
@@ -95,11 +95,11 @@
 <!--  Footer --> 
 
 <footer class="footer">
-    <article class="footerOpcion">
-            <a href="http://www.instagram.com" target="_blank" class="footerOpcion" >Instagram</a>
-            <a href="http://www.Facebook.com" target="_blank" class="footerOpcion" >Facebook</a>
-            <a href="http://www.Twitter.com" target="_blank" class="footerOpcion" >Twitter</a> 
-    </article>     
+    <div class="footerOpcion">
+        <a href="http://www.instagram.com" target="_blank" class="footerOpcion" >Instagram</a>
+        <a href="http://www.Facebook.com" target="_blank" class="footerOpcion" >Facebook</a>
+        <a href="http://www.Twitter.com" target="_blank" class="footerOpcion" >Twitter</a> 
+    </div>     
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

@@ -23,7 +23,13 @@ $colorSecundario: #E56B6F;
 
 html, body {
     width: 100%;
-    height: 100%;
+    height: 100%; 
+    .container-fluid{
+        margin-top: 2%;
+    }    
+    h3{
+        margin-top: 5%;
+    }
     h4{
         text-align: center;
         margin: 9% 29%;
@@ -36,12 +42,48 @@ html, body {
         margin: 5% 18%;
         background-color: $colorSecundario;
         border-radius: 26px}
+    .boxTexto{
+        background-color: $colorPrincipal;
+        font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
+        padding: 25px;
+    }
+    .textResaltado{
+        color: $colorSecundario;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
         
 }
 
 
+.contenedorVideo{
+    display: flex;
+    iframe{
+        width: 60%;
+        margin: auto;
+        height: 28rem;
+}
+}
+
+.logo{   
+    font-size: 4rem;
+    color: #E56B6F;
+    margin: 0;
+    font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
+
+} 
+
+
+
+
+
 @media screen and (max-width:768px){
     body{
+        .logo{
+            font-size: 3rem;
+        }
+    }
         h4{
         margin: 10% 27%;
     }
@@ -52,7 +94,18 @@ html, body {
 }
 }
 
+    .titulo{
+        font-size: 2rem;
 }
+    .nav-item{
+        display: inline;
+
+}
+
+
+
+
+
 
 
 @media screen and (max-width:425px){
@@ -63,6 +116,30 @@ html, body {
 }
     
 }
+
+@media screen and (max-width:768px){
+    .contenedorVideo{
+        iframe{
+            width: 100%;
+            margin: auto;
+            height: 24rem;
+    }
+}
+}
+
+
+@media screen and (max-width:320px){
+    .contenedorVideo{
+        iframe{
+            width: 100%;
+            margin: auto;
+            height: 14rem;
+    }
+}
+}
+
+
+
 
     
 
@@ -107,11 +184,15 @@ html, body {
 .titulo{
     
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
     color: #E56B6F;
 
 }
+
+
+
+
 
 
 @media screen and(max-width:425px)
@@ -121,16 +202,6 @@ html, body {
 }
 }
 
-@media screen and(max-width:768px)
-{
-    .titulo{
-        font-size: 2rem;
-}
-    .nav-item{
-        display: inline;
-
-}
-}
 
 
 

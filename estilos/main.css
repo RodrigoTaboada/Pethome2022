@@ -1,5 +1,5 @@
 .carouselSize {
-  width: 37%;
+  width: 50%;
   height: auto;
   margin: auto;
   border-radius: 10px; }
@@ -63,7 +63,8 @@ p {
   margin: 0 25%; }
 
 .carousel {
-  background-color: #355070; }
+  background-color: #355070;
+  margin-top: 10%; }
 
 .cardContenedor {
   display: flex;
@@ -274,11 +275,9 @@ option {
     font-size: 15px;
     margin: 6% 6%; } }
 
-@media screen and (max-width: 425px) {
-  h2 {
-    font-size: 4rem; }
+@media screen and (max-width: 325px) {
   .carouselSize {
-    height: 31%;
+    height: auto;
     width: 100%; }
   .CarCard {
     width: 85%; }
@@ -296,8 +295,6 @@ option {
   .card {
     padding: 8px;
     width: 100%; }
-  .contenedorVideo {
-    width: 100%; }
   .nav {
     padding: 0; }
   .botonMascotas {
@@ -307,22 +304,23 @@ option {
   .row {
     justify-content: center;
     display: flex; }
-  .contenedorVideo {
-    width: 100%; }
   .titulo2 {
     margin: 2rem;
     font-size: 2rem; } }
 
-@media screen and (max-width: 425px) and (max-width: 425px) {
-  .titulo2 {
-    font-size: 1rem; } }
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 325px) and (max-width: 320px) {
   .formulario {
     width: 90%; }
-  .contenedorVideo iframe {
+  .carousel-item img {
     width: 100%;
-    margin: 5% 0; } }
+    height: 25%; }
+  .boxTexto .titulo {
+    font-size: 1rem; }
+  .titulo2 {
+    font-size: 1rem; }
+  .titulo3 {
+    font-size: 200%;
+    margin: 12% 30%; } }
 
 @media screen and (max-width: 768px) {
   .video {
@@ -338,6 +336,10 @@ option {
   text-align: right;
   list-style-type: none;
   padding: 2rem; }
+
+.nav {
+  height: 10%;
+  margin: 0; }
 
 .menu__opcion {
   display: inline;
@@ -364,6 +366,10 @@ option {
 a {
   color: #E56B6F; }
 
+.corousel-item .img-fluid {
+  width: 200px;
+  height: 14rem; }
+
 .card2 {
   margin-top: 13%; }
 
@@ -387,9 +393,6 @@ img {
   width: 76%;
   border-radius: 8rem; }
 
-.contenedorVideo iframe {
-  margin: 10px; }
-
 .imgCard {
   display: flex;
   padding: 10%;
@@ -397,11 +400,11 @@ img {
   width: 75%;
   border-radius: 4rem; }
 
-.CarCard {
+.petCard {
   display: flex;
   padding: 10%;
-  height: 75%;
-  width: 75%;
+  height: 20%;
+  width: 80%;
   border-radius: 11em; }
 
 @media screen and (max-width: 425px) {
@@ -513,6 +516,10 @@ img {
 html, body {
   width: 100%;
   height: 100%; }
+  html .container-fluid, body .container-fluid {
+    margin-top: 2%; }
+  html h3, body h3 {
+    margin-top: 5%; }
   html h4, body h4 {
     text-align: center;
     margin: 9% 29%;
@@ -524,16 +531,58 @@ html, body {
     margin: 5% 18%;
     background-color: #E56B6F;
     border-radius: 26px; }
+  html .boxTexto, body .boxTexto {
+    background-color: #355070;
+    font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
+    padding: 25px; }
+  html .textResaltado, body .textResaltado {
+    color: #E56B6F; }
+  html .titulo, body .titulo {
+    font-size: 2rem; }
+
+.contenedorVideo {
+  display: flex; }
+  .contenedorVideo iframe {
+    width: 60%;
+    margin: auto;
+    height: 28rem; }
+
+.logo {
+  font-size: 4rem;
+  color: #E56B6F;
+  margin: 0;
+  font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif; }
 
 @media screen and (max-width: 768px) {
-  body h4 {
-    margin: 10% 27%; }
-  .fotos img {
-    height: 25rem; } }
+  body .logo {
+    font-size: 3rem; }
+  h4 {
+    margin: 10% 27%; } }
+
+.fotos img {
+  height: 25rem; }
+
+.titulo {
+  font-size: 2rem; }
+
+.nav-item {
+  display: inline; }
 
 @media screen and (max-width: 425px) {
   body h4 {
     margin: 13% 3%; } }
+
+@media screen and (max-width: 768px) {
+  .contenedorVideo iframe {
+    width: 100%;
+    margin: auto;
+    height: 24rem; } }
+
+@media screen and (max-width: 320px) {
+  .contenedorVideo iframe {
+    width: 100%;
+    margin: auto;
+    height: 14rem; } }
 
 .container-fluid {
   margin-bottom: 7%;
@@ -563,19 +612,13 @@ html, body {
 
 .titulo {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
   color: #E56B6F; }
 
 @media screen and (max-width: 425px) {
   .titulo {
     font-size: 2rem; } }
-
-@media screen and (max-width: 768px) {
-  .titulo {
-    font-size: 2rem; }
-  .nav-item {
-    display: inline; } }
 
 .nav {
   background-color: #355070; }
