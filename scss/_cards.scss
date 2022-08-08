@@ -17,11 +17,8 @@
     justify-content: space-evenly;
     padding: 21px;
     width: 25%;
-    transition: all .3s; 
-    &:focus{
-        transform: translateY(-10px) scale(1.03);
     }
-}
+
 
 
 .card-body{
