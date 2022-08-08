@@ -1,5 +1,5 @@
 .carouselSize {
-  width: 50%;
+  width: 52%;
   height: auto;
   margin: auto;
   border-radius: 10px; }
@@ -273,6 +273,10 @@ option {
   .formAyuda p {
     font-size: 14px;
     margin: 5px 8px; }
+
+@media screen and (max-width: 425px) {
+  .carouselSize {
+    height: 33%; } }
 
 @media screen and (max-width: 320px) {
   .carouselSize {
@@ -553,7 +557,7 @@ html, body {
     background-color: #355070;
     font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
     padding: 25px;
-    margin: 4% 0; }
+    margin: 0 20%; }
   html .textResaltado, body .textResaltado {
     color: #E56B6F; }
   html .titulo, body .titulo {
@@ -568,8 +572,8 @@ html, body {
 
 .contenedorVideo {
   display: flex;
-  width: 100%;
-  margin: 11px; }
+  margin: 11px;
+  justify-content: center; }
   .contenedorVideo iframe {
     width: 60%;
     margin: auto;
@@ -612,7 +616,7 @@ html, body {
   .contenedorVideo iframe {
     width: 100%;
     margin: 15px 10px;
-    height: 14rem; } }
+    height: 24rem; } }
 
 @media screen and (max-width: 320px) {
   .contenedorVideo iframe {
