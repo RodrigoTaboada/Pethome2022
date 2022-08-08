@@ -145,7 +145,7 @@ form {
     font-size: 2rem;
     color: #E56B6F; }
   form .formDonacion {
-    margin: 7% 0 0 0; }
+    margin: 14% 0 0 0; }
 
 label {
   width: auto;
@@ -161,7 +161,7 @@ form input[type="submit"] {
   border-radius: 5px;
   display: block;
   color: #fff;
-  background-color: #000;
+  background-color: #E56B6F;
   font-size: 3rem; }
 
 input {
@@ -207,25 +207,22 @@ option {
   font-size: 1rem; }
 
 .opcionesAdopcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20%;
-  font-size: 17px;
+  font-size: 32px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold; }
   .opcionesAdopcion .opcionesAnimales {
     width: 10%; }
 
-.button, .botonAceptar, .botonRechazar {
+.button {
   text-align: center;
   size: 1rem;
   border: solid 2px black;
   background-color: none;
   width: 100%; }
-
-.botonAceptar {
-  background-color: green; }
-
-.botonRechazar {
-  background-color: red; }
 
 .requisitos {
   display: flex;
@@ -263,12 +260,20 @@ option {
 @media screen and (max-width: 425px) {
   .formAyuda p {
     margin: 0px 4%;
-    font-size: 11px; } }
-
-@media screen and (max-width: 425px) {
-  .requisitos {
+    font-size: 11px; }
+  .formAyuda .requisitos {
     font-size: 15px;
-    margin: 6% 6%; } }
+    margin: 6% 6%; }
+  .opcionesAdopcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 33px; }
+  .formAyuda {
+    flex-direction: column; }
+    .formAyuda p {
+      font-size: 16px;
+      margin: 5px 8px; } }
 
 @media screen and (max-width: 320px) {
   .carouselSize {
@@ -529,7 +534,7 @@ html, body {
     margin-top: 2%; }
   html p, body p {
     font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     margin: 0 25%; }
   html h3, body h3 {
     margin-top: 5%; }
@@ -556,6 +561,11 @@ html, body {
     font-size: 2rem; }
   html .contenedorHome, body .contenedorHome {
     margin: 20px 0; }
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  margin: 31px 0 0 0; }
 
 .contenedorVideo {
   display: flex;
