@@ -1,7 +1,7 @@
 @media screen and (max-width:320px){
 
     .carouselSize{
-        height: auto;;
+        height: 33%;
         width: 100%;
     }
     
@@ -26,6 +26,12 @@
         padding: 0;
     }
 
+    .boxTexto{
+        p{
+            font-size: 18px;
+        }
+    }
+
     p{
         font-size: 17px;
         margin: 0;
@@ -38,6 +44,7 @@
     .card{
         padding: 8px;
         width: 100%;
+        
     }
 
 
@@ -92,29 +99,15 @@
 
 .titulo3{
     font-size: 102%;
-    margin: 12% 27%;
+    margin: 12% 0%;
 }
 
-
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and(max-width:768px){
-    .video{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 0 4%;
-        align-items: center;
+.contenedorVideo{
+    margin: 5px 0;
 }
 }
+
+
+
     
 

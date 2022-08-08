@@ -57,11 +57,6 @@ h3 {
   font-size: 3rem;
   text-align: center; }
 
-p {
-  font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-  font-size: 100%;
-  margin: 0 25%; }
-
 .carousel {
   background-color: #355070;
   margin-top: 10%; }
@@ -83,7 +78,10 @@ p {
   margin: 19px;
   justify-content: space-evenly;
   padding: 21px;
-  width: 25%; }
+  width: 25%;
+  transition: all .3s; }
+  .card:focus {
+    transform: translateY(-10px) scale(1.03); }
 
 .card-body p {
   display: flex;
@@ -277,7 +275,7 @@ option {
 
 @media screen and (max-width: 320px) {
   .carouselSize {
-    height: auto;
+    height: 33%;
     width: 100%; }
   .CarCard {
     width: 85%; }
@@ -287,6 +285,8 @@ option {
     font-size: 26px; }
   .card-body {
     padding: 0; }
+  .boxTexto p {
+    font-size: 18px; }
   p {
     font-size: 17px;
     margin: 0; }
@@ -318,15 +318,9 @@ option {
     font-size: 1rem; }
   .titulo3 {
     font-size: 102%;
-    margin: 12% 27%; } }
-
-@media screen and (max-width: 768px) {
-  .video {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 0 4%;
-    align-items: center; } }
+    margin: 12% 0%; }
+  .contenedorVideo {
+    margin: 5px 0; } }
 
 .menu {
   background-color: #355070;
@@ -348,6 +342,16 @@ option {
   .menu__opcion a {
     text-decoration: none;
     color: #E56B6F; }
+
+@media screen and (max-width: 425px) {
+  .nav .menu__opcion {
+    font-size: 1.3rem; } }
+
+@media screen and (max-width: 375px) {
+  .nav .menu__opcion {
+    font-size: 1.2rem; }
+  .titulo3 {
+    font-size: 3rem; } }
 
 @media screen and (max-width: 320px) {
   .nav .menu__opcion {
@@ -409,6 +413,13 @@ img {
   width: 80%;
   border-radius: 11em; }
 
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center; }
+
 @media screen and (max-width: 425px) {
   .cardCard img {
     padding: 4%;
@@ -418,18 +429,13 @@ img {
   display: flex;
   justify-content: center; }
 
-.video {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 10px 15%;
-  align-items: center; }
-
 @media screen and (max-width: 768px) {
   .video {
     display: flex;
-    flex-direction: column;
-    margin: 10px 6%; } }
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px 0;
+    align-items: center; } }
 
 @media screen and (max-width: 425px) {
   .video {
@@ -520,6 +526,10 @@ html, body {
   height: 100%; }
   html .container-fluid, body .container-fluid {
     margin-top: 2%; }
+  html p, body p {
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 0 25%; }
   html h3, body h3 {
     margin-top: 5%; }
   html h4, body h4 {
@@ -534,16 +544,22 @@ html, body {
     background-color: #E56B6F;
     border-radius: 26px; }
   html .boxTexto, body .boxTexto {
+    color: white;
     background-color: #355070;
     font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
-    padding: 25px; }
+    padding: 25px;
+    margin: 4% 0; }
   html .textResaltado, body .textResaltado {
     color: #E56B6F; }
   html .titulo, body .titulo {
     font-size: 2rem; }
+  html .contenedorHome, body .contenedorHome {
+    margin: 20px 0; }
 
 .contenedorVideo {
-  display: flex; }
+  display: flex;
+  width: 100%;
+  margin: 11px; }
   .contenedorVideo iframe {
     width: 60%;
     margin: auto;
@@ -570,15 +586,23 @@ html, body {
 .nav-item {
   display: inline; }
 
+.contenedorHome p {
+  font-size: 1.5rem; }
+
 @media screen and (max-width: 425px) {
   body h4 {
-    margin: 13% 3%; } }
+    margin: 13% 3%; }
+  body .contenedorHome p {
+    font-size: 1.5rem;
+    margin: 0 5%; }
+  body .titulo3 {
+    font-size: 3rem; } }
 
 @media screen and (max-width: 768px) {
   .contenedorVideo iframe {
     width: 100%;
-    margin: auto;
-    height: 24rem; } }
+    margin: 15px 10px;
+    height: 14rem; } }
 
 @media screen and (max-width: 320px) {
   .contenedorVideo iframe {

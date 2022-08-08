@@ -26,6 +26,28 @@
 }
 
 
+
+@media screen and(max-width: 425px){
+    .nav{
+    .menu__opcion{
+        font-size: 1.3rem;
+    }
+}
+}
+
+@media screen and(max-width: 375px){
+    .nav{
+    .menu__opcion{
+        font-size: 1.2rem;
+    }
+}
+    .titulo3{
+        font-size: 3rem;
+    }
+
+}
+
+
 @media screen and(max-width: 320px){
     .nav{
     .menu__opcion{
@@ -33,7 +55,6 @@
     }
 }
 }
-
 
 .navbar-light .navbar-brand{
     color: $colorSecundario;
