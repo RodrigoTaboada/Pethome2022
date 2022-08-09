@@ -135,7 +135,7 @@ footer {
 
 form {
   text-align: center;
-  width: 25%;
+  width: 35%;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
@@ -328,7 +328,11 @@ option {
     font-size: 102%;
     margin: 12% 0%; }
   .contenedorVideo {
-    margin: 5px 0; } }
+    margin: 5px 0; }
+  .contenedorVideo iframe {
+    width: 100%;
+    margin: auto;
+    height: 14rem; } }
 
 .menu {
   background-color: #355070;
@@ -549,7 +553,7 @@ html, body {
     margin: 9% 29%;
     background-color: #E56B6F;
     border-radius: 26px;
-    padding: 3%; }
+    padding: 5%; }
   html h5, body h5 {
     text-align: center;
     margin: 5% 18%;
@@ -567,6 +571,16 @@ html, body {
     font-size: 2rem; }
   html .contenedorHome, body .contenedorHome {
     margin: 20px 0; }
+
+.info {
+  background-color: #355070;
+  padding: 20px;
+  color: #EFF3F5;
+  font-size: 20px;
+  margin: 0 27%; }
+  .info p {
+    font-size: 1.3rem;
+    text-align: center; }
 
 .ubicacion {
   display: flex;
@@ -606,14 +620,9 @@ html, body {
 .contenedorHome p {
   font-size: 1.5rem; }
 
-@media screen and (max-width: 425px) {
-  body h4 {
-    margin: 13% 3%; }
-  body .contenedorHome p {
-    font-size: 1.5rem;
-    margin: 0 5%; }
-  body .titulo3 {
-    font-size: 3rem; } }
+.info p {
+  font-size: 16px;
+  margin: 0 17%; }
 
 @media screen and (max-width: 768px) {
   .contenedorVideo iframe {
@@ -621,11 +630,39 @@ html, body {
     margin: 15px 10px;
     height: 24rem; } }
 
-@media screen and (max-width: 320px) {
-  .contenedorVideo iframe {
-    width: 100%;
-    margin: auto;
-    height: 14rem; } }
+@media screen and (max-width: 425px) {
+  body h4 {
+    margin: 13% 3%; }
+  body .contenedorHome p {
+    font-size: 1.5rem;
+    margin: 0 5%; }
+  body .titulo3 {
+    font-size: 3rem; }
+  .info {
+    margin: 0 13%; }
+    .info p {
+      font-size: 16px;
+      margin: 0px 0; }
+  .titulo {
+    font-size: 2rem; } }
+
+.nav {
+  background-color: #355070; }
+
+.titulo {
+  color: #E56B6F; }
+
+.titulo2 {
+  margin: 2rem;
+  font-size: 1rem; }
+
+h2 {
+  margin: 4%; }
+
+.menu__opcion {
+  font-size: 2rem;
+  margin: 0;
+  display: in; }
 
 .container-fluid {
   margin-bottom: 7%;
@@ -659,25 +696,3 @@ html, body {
   font-size: 1rem;
   font-family: 'Bebas Neue', bold, 'Times New Roman', Times, serif;
   color: #E56B6F; }
-
-@media screen and (max-width: 425px) {
-  .titulo {
-    font-size: 2rem; } }
-
-.nav {
-  background-color: #355070; }
-
-.titulo {
-  color: #E56B6F; }
-
-.titulo2 {
-  margin: 2rem;
-  font-size: 1rem; }
-
-h2 {
-  margin: 4%; }
-
-.menu__opcion {
-  font-size: 2rem;
-  margin: 0;
-  display: in; }

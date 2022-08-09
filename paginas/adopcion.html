@@ -68,19 +68,19 @@
   <form  class="formulario" action="">
     <p>Formulario</p>
     <label for="Nombre y apellido:"></label>
-      <input class="formImput" type="text" placeholder="Ingresa tu nombre y apellido" name="nombre" id="" required>
+      <input class="formImput" type="text" placeholder="Ingresa tu nombre y apellido" name="nombre" id="Nombre" required>
     <label for="Edad:"></label>
-      <input class="formImput" type="number" placeholder="Edad" name="edad" id="" required>
+      <input class="formImput" type="number" placeholder="Edad" name="edad" id="Edad" required>
     <label for="Teléfono:"></label>
-      <input class="formImput" type="number" placeholder=Teléfono name="Telefono" id="" required>
+      <input class="formImput" type="number" placeholder=Teléfono name="Telefono" id="Telefono" required>
     <label for="Dirección:"></label>
-      <input class="formImput" type="text" placeholder="Dirección" name="Dirección" id="" required>
+      <input class="formImput" type="text" placeholder="Nombre mascota" name="nombre mascota" id="nombre mascota" required>
     <label for="Localidad:"></label>
-      <input class="formImput" type="text" placeholder="Localidad" name="Localidad" id="" required>
+      <input class="formImput" type="text" placeholder="Localidad" name="Localidad" id="Localidad" required>
     <label for="Provincia:"></label>
-      <input class="formImput" type="text" placeholder="Provincia" name="Provincia" id="" required>  
+      <input class="formImput" type="text" placeholder="Provincia" name="Provincia" id="Provincia" required>  
     <label for="E-mail:"></label>
-      <input class="formImput" type="email" placeholder="E-mail" name="correo" id="" required>
+      <input class="formImput" type="email" placeholder="E-mail" name="correo" id="E-mail" required>
         <textarea name="mensaje" id="mensaje" cols="30" rows="10" required=""  placeholder="Mensaje"></textarea>
             <label for="mensaje" class="form__label"></label>
         <span class="form__line"></span>
@@ -88,10 +88,12 @@
         
 <!-- Form Radio -->
 
-  <label for="raza">Indique que raza desea adoptar:</label>
+  <label for="raza">
+    <p class="tituloResaltado">Indique que raza desea adoptar:</p>
+  </label>
       <article class="opcionesAdopcion">
-        <input class="opcionesAnimales"  class="formImput" type="radio" name="raza" value="Gatos" id=""> Gatos
-        <input class="opcionesAnimales" class="formImput" type="radio" name="raza" value="Perros" id=""> Perros
+        <input class="opcionesAnimales"  class="formImput" type="radio" name="raza" value="Gatos" id="Gatos"> Gatos
+        <input class="opcionesAnimales" class="formImput" type="radio" name="raza" value="Perros" id="Perros"> Perros
         <input type="submit" value="Enviar" class="button">
       </article>
 </section>
@@ -99,6 +101,15 @@
 
 
 <h2 class="titulo3"> Tambien podes encontrarnos en..</h2>
+
+<div class="info">
+  <h4>Más info</h4>
+  <p class="textInfo">E-mail:</p>
+  <p class="textInfo">pethome@refugios.org</p>
+  <p class="textInfo">Dirección:</p>
+  <p class="textInfo">Paraná 3745</p>
+</div>
+
   <div class="ubicacion">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.774564807906!2d-58.525358083732065!3d-34.50859905998056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0ee292497e9%3A0xf9a611e58747f528!2sUnicenter!5e0!3m2!1ses-419!2sar!4v1659977127078!5m2!1ses-419!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
 </main>

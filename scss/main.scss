@@ -40,7 +40,7 @@ html, body {
         margin: 9% 29%;
         background-color: #E56B6F;
         border-radius: 26px;
-        padding: 3%;
+        padding: 5%;
     }
     h5{
         text-align: center;
@@ -63,9 +63,22 @@ html, body {
     }
     .contenedorHome{
         margin: 20px 0;
-    }
-            
 }
+}
+
+.info{
+    background-color: $colorPrincipal;
+    padding: 20px;
+    color: #EFF3F5;
+    font-size: 20px;
+    margin: 0 27%;
+    p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    }
+
+            
 
 .ubicacion{
     display: flex;
@@ -126,9 +139,23 @@ html, body {
         font-size: 1.5rem;
     }
 }
+.info{
+    p{
+        font-size: 16px;
+        margin: 0 17%;
+}
+}
 
 
-
+@media screen and (max-width:768px){
+    .contenedorVideo{
+        iframe{
+            width: 100%;
+            margin: 15px 10px;
+            height: 24rem;
+    }
+}
+}
 
 @media screen and (max-width:425px){
     body{
@@ -145,35 +172,57 @@ html, body {
         font-size: 3rem;
     }
 }
+.info{
+    margin: 0 13%;
+    p{
+        font-size: 16px;
+        margin: 0px 0;
+}
+}
+
+.titulo{
+    font-size: 2rem;
+}
+}
+
+
+$colores:(
+nav: $colorPrincipal,
+texto: $colorSecundario,
+);
+
+
+.nav{
+background-color: map-get($colores, nav);
+}
+
+.titulo{
+color: map-get($colores, texto );
+}
+
+@mixin sizes ($font-size, $margin) {
+    font-size: $font-size;
+    margin: $margin
+
+}
+
+
+.titulo2{
+    margin: 2rem;
+    font-size: 1rem;
+}
+h2{
+    margin: 4%;
+}
+
+
+.menu__opcion{
+    font-size: 2rem;
+    margin: 0;
+    display: in;
+}
     
-}
 
-@media screen and (max-width:768px){
-    .contenedorVideo{
-        iframe{
-            width: 100%;
-            margin: 15px 10px;
-            height: 24rem;
-    }
-}
-}
-
-
-@media screen and (max-width:320px){
-    .contenedorVideo{
-        iframe{
-            width: 100%;
-            margin: auto;
-            height: 14rem;
-    }
-}
-    
-}
-
-
-
-
-    
 
 .container-fluid{
     margin-bottom: 7%;
@@ -222,59 +271,6 @@ html, body {
     color: #E56B6F;
 
 }
-
-
-
-
-
-
-@media screen and(max-width:425px)
-{
-    .titulo{
-        font-size: 2rem;
-}
-}
-
-
-$colores:(
-    nav: $colorPrincipal,
-    texto: $colorSecundario,
-);
-
-
-.nav{
-    background-color: map-get($colores, nav);
-}
-
-.titulo{
-    color: map-get($colores, texto );
-}
-
-@mixin sizes ($font-size, $margin) {
-    font-size: $font-size;
-    margin: $margin
-
-}
-
-
-.titulo2{
-    margin: 2rem;
-    font-size: 1rem;
-}
-h2{
-    margin: 4%;
-}
-
-
-.menu__opcion{
-    font-size: 2rem;
-    margin: 0;
-    display: in;
-}
-
-
-
-
 
 
 
