@@ -1,11 +1,28 @@
 form{
     text-align: center;
-    width: 35%;
-    padding:16px;
-    border-radius:10px;
-    margin:auto;
-    background-color: $colorPrincipal;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #355070;
     margin-top: 10%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    .formAyuda{
+        display: flex;
+        border: 2px solid black;
+        align-items: center;
+        margin: 6% 24%;
+        background-color: #E56B6F;
+        p{
+            margin: 0 4%;
+            font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+            color: #355070;
+            font-size: 11px;
+            font-weight: bold;
+        }
+    }    
+
     p{
         font-size: 2rem;
         color: #E56B6F;
@@ -13,120 +30,91 @@ form{
     .formDonacion{        
         margin: 14% 0 0 0;
     }
-}
-
-
-textarea{
-    width: 100%;
-}
-
-label{
-        width:auto;
+    input{
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        text-align: center;
         font-family: 'Roboto', sans-serif, 'Bebas Neue', bold;
-        margin-top: 2rem;
-        font-size: 150%;
-    
-}
-
-
-form input[type="submit"]{
-	width:100%;
-	padding:8px 16px;
-	margin-top:32px;
-	border:1px solid #000;
-	border-radius:5px;
-	display:block;
-	color:#fff;
-	background-color: $colorSecundario;
-    font-size: 3rem;
-    
-} 
-
-input{
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif, 'Bebas Neue', bold;
-    width: 100%;
-    
-}
-
-
-
-textarea{
-    margin-top: 2rem;
-    font-family: 'Roboto', sans-serif, 'Bebas Neue', bold;
-    font-size: 1rem;
-    text-align: center;
-}
-
-
-
-button {
-    padding      : 5px;
-    font         : bold .6em sans-serif;
-    border       : 2px solid #333;
-    border-radius: 5px;
-    background   : none;
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    &:hover{
-        border:2px solid #fff
-}
-}
-
-.formLabel{
-    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-    font-size: 2rem;
-    margin: 4rem;
-}
-
-
-.form-control{
-    margin: 10%;
-}
-
-.form-select{
-    font-size: 2rem;
-
-}
-
-.form-label{
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-}
-
-
-
-option{
-    font-size: 1rem;
-}
-
-.opcionesAdopcion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20%;
-    font-size: 32px;
-    font-family: 'Roboto', sans-serif; 
-    font-weight: bold;
-    .opcionesAnimales{
-        width: 10%;
+        width: 100%;
+        button {
+            padding      : 5px;
+            font         : bold .6em sans-serif;
+            border       : 2px solid #333;
+            border-radius: 5px;
+            background   : none;
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 2rem;
+            &:hover{
+                border:2px solid #fff
+            }
+        } 
+        textarea{
+            margin-top: 2rem;
+            font-family: 'Roboto', sans-serif, 'Bebas Neue', bold;
+            font-size: 1rem;
+            text-align: center;
+        }
+        .formLabel{
+            font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+            font-size: 2rem;
+            margin: 4rem;
+        }
+        .form-control{
+            margin: 10%;
+        }
+        .form-select{
+            font-size: 2rem;
+        
+        }
+        .form-label{
+            font-size: 3rem;
+            font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+        }
+        option{
+            font-size: 1rem;
+        }
     }
-
+    textarea{
+        width: 100%;
+        margin: 5% 0;
+        text-align: center;
+    }
+    label{
+            width:auto;
+            font-family: 'Roboto', sans-serif, 'Bebas Neue', bold;
+            margin-top: 2rem;
+            font-size: 150%;
+        
+    }
+    .button{
+        text-align: center;
+        size: 1rem;
+        border: solid 2px black;
+        background-color: #E56B6F;
+        width: 50%;
+        font-size: 2rem;
+    }
+    .opcionesAdopcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 33px;
+    }
+    .formAyuda{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: 14px;
+            margin: 5px 8px;
+        }
+    }
 }
-
-
-.button{
-    text-align: center;
-    size: 1rem;
-    border: solid 2px black;
-    background-color: none;
-    width: 100%;
-}
-
-
-
 .requisitos{
     display: flex;
     flex-direction: column;
@@ -135,62 +123,26 @@ option{
     margin: 4% 12%;
     border: 2px solid black;
     background-color: #E56B6F;
+    li{
+        margin: 2% 4%;
+    }
 }
 
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin: 31px 5%;
+}
 
-.formAyuda{
+.ayuda{
     display: flex;
     border: 2px solid black;
     align-items: center;
-    margin: 6% 24%;
+    margin: 6% 2%;
     background-color: #E56B6F;
     p{
-        margin: 0 4%;
-        font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
-        color: #355070;
-        font-size: 23px;
-        font-weight: bold;
+        font-size: 1.4rem;
+        margin: 0 6%;
     }
 }
-
-@media screen and (max-width: 1024px){
-    .formAyuda{
-    p{
-        font-size: 11px;
-}
-}
-}
-
-
-@media screen and (max-width: 768px){
-    .formAyuda{
-        margin: 5% 7%;
-    p{
-        margin: 0 7%;
-        font-size: 14px;
-}
-}
-}
-
-@media screen and (max-width: 425px){
-    .requisitos{
-        font-size: 15px;
-        margin: 6% 6%;        
-}
-}
-    .opcionesAdopcion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 33px;
-    }
-    .formAyuda{
-        flex-direction: column;
-        p{
-            font-size: 14px;
-            margin: 5px 8px;
-        }
-}
-
-
 

@@ -13,11 +13,14 @@
     text-align: center;
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 40px;
-    margin: 19px;
+    margin: 5%;
     justify-content: space-evenly;
     padding: 21px;
     width: 25%;
     }
+.card:hover{
+    transform: scale(1.2);
+}
 
 
 
@@ -26,7 +29,7 @@
         flex-direction: column;
         color: aliceblue;
         text-align: left;
-        margin: 0 5%;
+        margin: 0 8%;
     
     }
 }

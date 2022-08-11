@@ -16,16 +16,18 @@
 }
 
 .fotos{
+    display: flex;
     width: 50%;
-    img{
-        height: 36rem;
+    justify-content: space-around;
+    margin: auto;
+    .foto1{
+        margin: 0 4%;
     }
+    img{
+        height: auto;
+        width: 89%;
+        border-radius: 16%;
 }
-
-.foto1{
-    background-color: $colorPrincipal;
-    margin: 0 4%;
-
 }
 
 img{
@@ -42,11 +44,6 @@ img{
     max-width: 100%;
     height: 200px;
 }
-
-
-
-
-
 
 .imgCard{
     display: flex; 
@@ -68,27 +65,27 @@ img{
 }
 
 
+.contenedorVideo{
+    display: flex;
+    margin: 11px;
+    justify-content: center;
+    iframe{
+        margin: auto;
+        height: 23rem;
+}
+}
+
 .video{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     margin: 10px ;
     align-items: center;
+    iframe{
+
+    }
     
 }
-
-
-@media screen and (max-width:425px){
-    .cardCard{
-        img{
-        padding: 4%;
-        width: 75%;
-    }
-}
-}
-
-
-
 
 .contenedorMascotas{
     display: flex;
@@ -97,72 +94,6 @@ img{
 
 
 
-
-@media screen and (max-width:768px) {
-    .video{       
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: 15px 0;
-        align-items: center;
-}
-}
-
-
-
-
-@media screen and (max-width:425px) {
-        .video{
-        display: flex;
-        flex-direction: column;
-        margin: 10px 6%;
-}      
-        .fotos{
-            width: 77%;
-        }
-}
-
-
-
-.foto{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 4% 4%;
-}
-
-
-.fotos{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    margin: auto;
-    
-}
-
-.fotos{
-    img{
-        height: 36rem;
-}
-}
-
-
-@media screen and (max-width:768px) {
-    .fotos{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        .foto1{
-            align-items: center;
-            margin: 21px 0%;
-            width: 97%;
-            img{
-                height: 32px;
-                
-            }
-        }
-}
-}
 
 
 .w-100{

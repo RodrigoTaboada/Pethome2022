@@ -1,8 +1,170 @@
+@media screen and (max-width:768px){
+    body{
+        .logo{
+            font-size: 3rem;
+        }
+    }
+
+    .fotos{
+        img{
+            height: 25rem;
+        }
+    }
+    
+
+    .titulo{
+        font-size: 2rem;
+    }
+    .nav-item{
+        display: inline;
+    }
+    .contenedorHome{
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .info{
+        p{
+            font-size: 21px;
+            margin: 0 17%;
+    }
+    }   
+    .contenedorVideo{
+        iframe{
+            width: 100%;
+            margin: 15px 10px;
+            height: 24rem;
+        }
+    }
+    .fotos{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        .foto1{
+            align-items: center;
+            margin: 21px 0%;
+            width: 97%;
+            img{
+                height: 32px;
+            }
+        }
+    }
+
+    .formAyuda{
+        margin: 5% 7%;
+        p{
+        margin: 0 7%;
+        font-size: 14px;
+        }
+    }
+    .ubicacion{
+        margin: 31px 10%;
+    }
+    h4{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        margin: 6% 0%;
+    }
+    .video{       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 15px 0;
+        align-items: center;
+    }
+    .carouselSize{
+        width: 90%;
+    }
+    .container-fluid{
+        height: 62%;
+    }
+}
+
+
+
 @media screen and (max-width:425px){
     .carouselSize{
-        height: 33%;
+        height: 30%
+    }
+    
+    .contenedorHome{
+        p{
+            font-size: 1.5rem;
+            margin: 0 5%;
+        }
+    }
+    .titulo3{
+        font-size: 3rem;
+    }
+    .info{
+        margin: 0 13%;
+        p{
+            font-size: 1rem;
+            margin: 0px 0;
+        }
+    }
+    
+    .titulo{
+        font-size: 2rem;
+    }
+    .nav{
+        .menu__opcion{
+            font-size: 1.3rem;
+        }
+    }
+    .requisitos{
+        font-size: 15px;
+        margin: 6% 6%;        
+    }
+    .ubicacion{
+        margin: 31px 10%;
+    }
+    .cardCard{
+        img{
+        padding: 4%;
+        width: 75%;
+        }
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 6%;
+    }      
+    .fotos{
+        width: 77%;
+    }
+    .ayuda{
+        flex-direction: column;
+    }
+}
+    
+
+
+@media screen and (max-width:390px){
+    .carouselSize{
+        height: 40%;
 }
 }
+
+
+@media screen and(max-width: 375px){
+    .nav{
+        .menu__opcion{
+        font-size: 1.2rem;
+        }
+    }
+    .titulo3{
+        font-size: 3rem;
+    }
+    input{
+            font-size: 15px;
+        }
+    }
+    .boxTexto{
+        margin: 5% 0;
+    }
+
 
 
 
@@ -23,12 +185,10 @@
 
     
     .footerOpcion{
-        a 
-        {font-size: 26px;
+        a{
+            font-size: 26px;
+        }
     }
-    }
-
-
 
     .card-body{
         padding: 0;
@@ -48,6 +208,9 @@
     h1{
         font-size: 2rem;
     }
+    h2{
+        font-size: 4rem;
+    }
 
     .card{
         padding: 8px;
@@ -58,69 +221,72 @@
 
     .nav{
         padding: 0;
+        .menu__opcion{
+            font-size: 0.9rem;
+        }
+    }
+
+    .botonMascotas{
+        background-color: #E56B6F;
+        border: 2px solid black;
+        margin: 7%;
+    }
+
+    .row{
+        justify-content: center;
+        display: flex;
     }
 
 
-.botonMascotas{
-    background-color: #E56B6F;
-    border: 2px solid black;
-    margin: 7%;
-}
 
-.row{
-    justify-content: center;
-    display: flex;
-}
-
-
-
-.titulo2{
-    margin: 2rem;
-    font-size: 2rem;
-}
-
-
-
-.formulario{
-    width: 90%;
-}
-
-
-
-.carousel-item{
-    img{
-        width: 100%;
-        height: 25%;
+    .titulo2{
+        margin: 2rem;
+        font-size: 2rem;
     }
-}
 
-.boxTexto{
-    .titulo{
+
+
+    .formulario{
+        width: 90%;
+    }
+
+
+
+    .carousel-item{
+        img{
+            width: 100%;
+            height: 25%;
+        }
+    }
+
+    .boxTexto{
+        .titulo{
+            font-size: 1rem;
+        }
+    }
+
+    .titulo2{
         font-size: 1rem;
     }
-}
-
-.titulo2{
-    font-size: 1rem;
-}
 
 
-.titulo3{
-    font-size: 102%;
-    margin: 12% 0%;
-}
+    .titulo3{
+        font-size: 3rem;
+        margin: 12% 0%;
+    }
 
-.contenedorVideo{
-    margin: 5px 0;
-}
+    .contenedorVideo{
+        margin: 5px 0;
+    }
 
-.contenedorVideo{
-    iframe{
-        width: 100%;
-        margin: auto;
-        height: 14rem;
-}
-}
+    .contenedorVideo{
+        iframe{
+            margin: 15px 10px;
+            height: 24rem;
+            width: auto;
+            height: 13rem;
+    }
+    }
 }
 
 
