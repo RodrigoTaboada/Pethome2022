@@ -21,7 +21,7 @@
 
 .subtitulo {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
   margin: 2rem; }
 
@@ -64,12 +64,11 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  border-radius: 10px;
   background-color: #355070;
   text-align: center;
   box-shadow: 5px 5px 15px 5px #000000;
   border-radius: 40px;
-  margin: 5%;
+  margin: 10%;
   justify-content: space-evenly;
   padding: 21px;
   width: 25%; }
@@ -545,9 +544,8 @@ h2 {
     width: 100%;
     align-items: center; }
     .fotos .foto1 {
-      align-items: center;
       margin: 21px 0%;
-      width: 97%; }
+      width: 50%; }
       .fotos .foto1 img {
         height: 32px; }
   .formAyuda {
@@ -571,7 +569,9 @@ h2 {
   .carouselSize {
     width: 90%; }
   .container-fluid {
-    height: 62%; } }
+    height: 62%; }
+  .card:hover {
+    transform: scale(1); } }
 
 @media screen and (max-width: 425px) {
   .carouselSize {
@@ -605,7 +605,10 @@ h2 {
   .fotos {
     width: 77%; }
   .ayuda {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .fotos .foto1 {
+    width: 22rem;
+    height: 23rem; } }
 
 @media screen and (max-width: 390px) {
   .carouselSize {

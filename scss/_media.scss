@@ -41,14 +41,15 @@
         width: 100%;
         align-items: center;
         .foto1{
-            align-items: center;
             margin: 21px 0%;
-            width: 97%;
+            width: 50%;
             img{
                 height: 32px;
             }
         }
     }
+
+    
 
     .formAyuda{
         margin: 5% 7%;
@@ -78,6 +79,9 @@
     }
     .container-fluid{
         height: 62%;
+    }
+    .card:hover{
+        transform: scale(1);
     }
 }
 
@@ -137,7 +141,15 @@
     .ayuda{
         flex-direction: column;
     }
+    .fotos{
+        .foto1{
+            width: 22rem;
+            height: 23rem;
+        }
+    }
 }
+
+
     
 
 
